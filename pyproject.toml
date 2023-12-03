@@ -6,6 +6,7 @@ authors = ["chatflip <oo.chat.flip@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9,<3.11"
+segment-anything = {git = "https://github.com/facebookresearch/segment-anything.git"}
 
 [tool.poetry.group.dev.dependencies]
 ruff = "0.1.5"

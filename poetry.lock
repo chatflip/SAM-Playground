@@ -85,6 +85,25 @@ files = [
 ]
 
 [[package]]
+name = "segment_anything"
+version = "1.0"
+description = ""
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.extras]
+all = ["matplotlib", "onnx", "onnxruntime", "opencv-python", "pycocotools"]
+dev = ["black", "flake8", "isort", "mypy"]
+
+[package.source]
+type = "git"
+url = "https://github.com/facebookresearch/segment-anything.git"
+reference = "HEAD"
+resolved_reference = "6fdee8f2727f4506cfbbe553e23b895e27956588"
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -109,4 +128,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9,<3.11"
-content-hash = "0430d0d3a93de4a97adafe24032842e9bf75347b767378506a1d2e48bf0f1a05"
+content-hash = "4adbe512182d6b4f55257974dd1bffc49e599dbb7c79e1e2fb1dd1630a194d13"
