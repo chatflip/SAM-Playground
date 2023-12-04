@@ -135,5 +135,6 @@ dmypy.json
 # Ruff
 .ruff_cache/
 
-
 weights
+images
+movies
