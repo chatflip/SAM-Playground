@@ -16,6 +16,7 @@ onnx = "^1.15.0"
 [tool.poetry.group.dev.dependencies]
 ruff = "0.1.5"
 mypy = "1.7.0"
+ipykernel = "^6.27.1"
 
 [build-system]
 requires = ["poetry-core"]
